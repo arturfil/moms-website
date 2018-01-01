@@ -1,0 +1,130 @@
+/* General */
+
+i {
+  border: black solid 5px;
+  padding: 30px;
+  border-radius: 50%;
+  margin: 40px;
+}
+i:hover {
+  color: white;
+  border: white solid 5px;
+  transition: 0.3s;
+}
+
+.tour-button {
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 45px;
+  padding: 10px 20px;
+  width: 400px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+
+}
+.tour-button:hover {
+  text-decoration: none;
+  color: #00b7ff;
+  border-color: white;
+  background-color: white;
+  transition: 0.3s;
+}
+
+/* End of General Classes */
+
+/* Landing Page */
+
+.upper-header {
+  text-align: center;
+}
+.link {
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-top: 30px;
+}
+.landing-page {
+  margin: none;
+  background-image: url('../images/diego-rivera.jpg');
+  height: 800px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-overlay {
+  background-color: rgba(31, 31, 31, 0.4);  
+  height: 800px;
+}
+.layout-title {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  padding-top: 330px;
+  margin: 0;
+}
+.layout-title-two {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+.tour-button {
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 45px;
+  padding: 10px 20px;
+  width: 400px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+
+}
+.tour-button:hover {
+  text-decoration: none;
+  color: #00b7ff;
+  border-color: white;
+  background-color: white;
+  transition: 0.3s;
+}
+
+/* Footer */
+
+footer {
+  background-color: rgba(0, 0, 0, 0.808)
+}
+footer h1 {
+  padding-top: 40px;
+  color: grey;
+  text-align: center
+}
+footer p {
+  color: lightgrey;
+  text-align: center;
+}
+.icon-col {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.icon-col i {
+  color: whitesmoke;
+  border-color: whitesmoke;
+}
+.icon-col i:hover {
+  transition: 0.3s;
+  color: #00B7FF;
+  border-color: #00B7FF;
+}
+
+/* Art Display */
+
+.img-col {
+  margin-top: 30px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  max-height: 440px;
+  
+}
