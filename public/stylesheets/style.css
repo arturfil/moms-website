@@ -128,3 +128,16 @@ footer p {
   max-height: 440px;
   
 }
+
+/* Media Queries */
+
+@media (min-width: 474px) and (max-width: 767px) { 
+  .image {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 0 8%;
+    overflow-wrap: inherit;
+  }
+ }
